@@ -18,7 +18,7 @@ AM_LDFLAGS  = $(AM_COPT) $(AM_COVLDFLAGS)
 AM_CPPFLAGS += -I$(top_srcdir)
 
 RESOURCES =
-AM_CXXFLAGS += -std=c++11
+AM_CXXFLAGS += -std=c++0x
 if COMPILER_IS_MINGW32
   RESOURCES += res/libsass.rc
 endif
